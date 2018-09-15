@@ -1,0 +1,7 @@
+https://imgur.com/a/Yhs30KE
+
+table Logins menjadi conjunction antara tabel Customers dan Admins
+table Items menjadi conjunction antara tabel Customers, Admins dan Tags
+hubungan antara Items dengan Admins adalah one to many
+hubungan antara Items dengan Tags adalah many to one, karena setiap itemsId dapat memiliki tagsId yang lebih dari satu
+hubungan antara Items dengan Customers adalah one to many
